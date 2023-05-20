@@ -1,4 +1,4 @@
-package main.java.service;
+package service;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -9,21 +9,21 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import main.java.dao.ClassDao;
-import main.java.dao.CourseDao;
-import main.java.dao.DepartmentDao;
-import main.java.dao.SCDao;
-import main.java.dao.StudentDao;
-import main.java.dao.UserDao;
-import main.java.model.Class;
-import main.java.model.Course;
-import main.java.model.Course_avg;
-import main.java.model.Course_fail_rate;
-import main.java.model.Course_ranking;
-import main.java.model.Department;
-import main.java.model.SC;
-import main.java.model.Student;
-import main.java.model.User;
+import dao.ClassDao;
+import dao.CourseDao;
+import dao.DepartmentDao;
+import dao.SCDao;
+import dao.StudentDao;
+import dao.UserDao;
+import model.Class;
+import model.Course;
+import model.Course_avg;
+import model.Course_fail_rate;
+import model.Course_ranking;
+import model.Department;
+import model.SC;
+import model.Student;
+import model.User;
 
 
 public class AdminDao extends HttpServlet {

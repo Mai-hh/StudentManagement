@@ -1,4 +1,4 @@
-package main.java.dao;
+package dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -7,8 +7,8 @@ import java.util.ArrayList;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 
-import main.java.model.SC;
-import main.java.utils.DBUtils;
+import model.SC;
+import utils.DBUtils;
 
 public class SCDao {
 

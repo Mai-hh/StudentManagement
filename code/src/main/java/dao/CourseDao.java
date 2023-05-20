@@ -1,4 +1,4 @@
-package main.java.dao;
+package dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -7,11 +7,11 @@ import java.util.ArrayList;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 
-import main.java.model.Course;
-import main.java.model.Course_avg;
-import main.java.model.Course_fail_rate;
-import main.java.model.Course_ranking;
-import main.java.utils.DBUtils;
+import model.Course;
+import model.Course_avg;
+import model.Course_fail_rate;
+import model.Course_ranking;
+import utils.DBUtils;
 
 public class CourseDao {
 	// 获取所有课程的信息，用ArrayList返回

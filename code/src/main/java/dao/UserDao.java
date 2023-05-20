@@ -1,4 +1,4 @@
-package main.java.dao;
+package dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -8,8 +8,8 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.Statement;
 
-import main.java.model.User;
-import main.java.utils.DBUtils;
+import model.User;
+import utils.DBUtils;
 
 public class UserDao {
 	//判断用户在数据库中是否存在，存在返回true，不存在返回false
