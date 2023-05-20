@@ -1,4 +1,4 @@
-package dao;
+package main.java.dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -6,8 +6,8 @@ import java.util.ArrayList;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import model.Department;
-import utils.DBUtils;
+import main.java.model.Department;
+import main.java.utils.DBUtils;
 
 public class DepartmentDao {
 	//查询所有的系信息，查询返回一个含值的ArrayList,当为空值的说明表中无数据元组

@@ -1,4 +1,4 @@
-package dao;
+package main.java.dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -7,8 +7,8 @@ import java.util.ArrayList;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 
-import utils.DBUtils;
-import model.Class;
+import main.java.utils.DBUtils;
+import main.java.model.Class;
 
 public class ClassDao {
 	// 获取所有班级的信息，用ArrayList返回

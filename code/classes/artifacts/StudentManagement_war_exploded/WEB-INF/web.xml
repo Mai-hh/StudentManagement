@@ -23,7 +23,7 @@
     <description></description>
     <display-name>LoginServlet</display-name>
     <servlet-name>LoginServlet</servlet-name>
-    <servlet-class>service.LoginServlet</servlet-class>
+    <servlet-class>main.java.service.LoginServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>LoginServlet</servlet-name>
@@ -33,7 +33,7 @@
     <description></description>
     <display-name>UserExitServlet</display-name>
     <servlet-name>UserExitServlet</servlet-name>
-    <servlet-class>service.UserExitServlet</servlet-class>
+    <servlet-class>main.java.service.UserExitServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>UserExitServlet</servlet-name>
@@ -43,7 +43,7 @@
     <description></description>
     <display-name>RegisterServlet</display-name>
     <servlet-name>RegisterServlet</servlet-name>
-    <servlet-class>service.RegisterServlet</servlet-class>
+    <servlet-class>main.java.service.RegisterServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>RegisterServlet</servlet-name>
@@ -53,7 +53,7 @@
     <description></description>
     <display-name>AdminDao</display-name>
     <servlet-name>AdminDao</servlet-name>
-    <servlet-class>service.AdminDao</servlet-class>
+    <servlet-class>main.java.service.AdminDao</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>AdminDao</servlet-name>
