@@ -9,6 +9,11 @@
     </properties>
     <root id="archive" name="StudentManagement.war">
       <element id="artifact" artifact-name="StudentManagement:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="application_server_libraries" name="Tomcat 8.5.88" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>
