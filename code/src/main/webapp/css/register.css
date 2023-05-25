@@ -1,0 +1,130 @@
+/* Basic */
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "PingFangSC-Regular", "Microsoft Yahei", sans-serif;
+}
+
+body {
+	background-color: #F3F8FE;
+}
+
+a {
+	color: #E3A505;
+	text-decoration: none;
+}
+
+a:hover {
+	font-size: 15px;
+	color: #FFCA58;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	display: inline-block;
+}
+
+header {
+	position: absolute;
+	top: 12px;
+	z-index: 11;
+	font-size: 15px;
+	line-height: 34px;
+	width: 100%;
+}
+
+header nav {
+	float: right;
+	margin-right: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+
+header nav ul li {
+	margin: 0 15px;
+	float: left;
+	height: 38px;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container {
+	position: relative;
+	height: 482px;
+	width: 760px;
+	box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5);
+	background-color: #F2F9FF;
+}
+
+/* login.html */
+.register_form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 36%;
+	padding: 3em 5em;
+	font-weight: 300;
+	color: #334E68;
+	text-align: center;
+}
+
+.register_form h3 {
+	font-weight: 600;
+	font-size: 1.5em;
+	margin-bottom: 1.2em;
+}
+
+.register_form p {
+	font-size: 1em;
+	margin-bottom: 1em;
+}
+
+.register_form input {
+	display: block;
+	border: 1px solid #A6C8E2;
+	background-color: #fff;
+	height: 1.6em;
+	width: 90%;
+	padding: 0.5em 1em;
+	margin: 0 auto 1em;
+}
+
+#submit {
+	color: #fff;
+	background-color: #E3A505;
+	border: none;
+	line-height: 1em;
+	padding: 0.5em 0;
+	width: 100%;
+	height: 2.5em;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 1.5em;
+}
+
+footer {
+	display: block;
+	font-size: 15px;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	bottom: 20px;
+	z-index: 1;
+	line-height: 30px;
+	background-color: #334E68;
+	color: #fff;
+}
+
+.info ul li {
+	margin: 0 10px;
+	height: 38px;
+}

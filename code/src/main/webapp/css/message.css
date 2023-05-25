@@ -1,37 +1,33 @@
-/*Basic*/
-*{
+/* Basic */
+* {
 	padding: 0;
 	margin: 0;
-	font-family: "PingFangSC-Regular","Microsoft Yahei",sans-serif;
+	font-family: "PingFangSC-Regular", "Microsoft Yahei", sans-serif;
 }
 
 body {
-	background-image: url(bg.jpg);
-	background-position: center center; 
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	background-color:#F2F2F2;
+	background-color: #F3F8FE;
 }
 
-a{
-	color: #fff;
+a {
+	color: #E3A505;
 	text-decoration: none;
 }
 
-a:hover{
-	color: #E0555A;
+a:hover {
+	font-size: 15px;
+	color: #FFCA58;
 }
 
-ul{
+ul {
 	list-style: none;
 }
 
-ul li{
+ul li {
 	display: inline-block;
 }
 
-main{
+main {
 	display: block;
 	position: relative;
 	width: 100%;
@@ -39,35 +35,36 @@ main{
 	overflow: hidden;
 }
 
-.message{
-	color: #000;
-	background-color: #fff;
+.message {
+	color: #334E68;
+	background-color: #F2F9FF;
 	padding: 2em 3em;
-	margin: 20% 30%;
+	margin: 20% auto;
 	z-index: 1000;
 	display: inline-block;
 	width: 34%;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.relogin{
-	color: #000;
+.relogin {
+	color: #334E68;
 	font-size: 36px;
 }
 
-.left{
+.left {
 	float: left;
 	width: 60%;
 	text-align: left;
 }
 
-.right{
+.right {
 	float: left;
 	width: 40%;
 	text-align: center;
-	margin:auto 0;
+	margin: auto 0;
 }
 
-footer{
+footer {
 	display: block;
 	text-align: center;
 	width: 100%;
@@ -75,13 +72,11 @@ footer{
 	bottom: 20px;
 	z-index: 1;
 	line-height: 30px;
+	background-color: #334E68;
+	color: #fff;
 }
 
-.info ul li{
+.info ul li {
 	margin: 0 10px;
 	height: 38px;
-}
-
-.copyright{
-	color: #fff;
 }
