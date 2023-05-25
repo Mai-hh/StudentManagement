@@ -12,7 +12,7 @@ public class DBUtils {
      */
     public static Connection getConnection(){
     	String dbUserName = "root";
-    	String dbUserPasswd = "momo0918";
+    	String dbUserPasswd = "123456";
     	String dbURL = "jdbc:mysql://localhost:3306/studentinfomanagement?serverTimezone=UTC&characterEncoding=utf8&useUnicode=true&useSSL=false";
     	Connection conn = null;
     	try {

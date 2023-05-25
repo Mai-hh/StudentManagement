@@ -109,12 +109,6 @@
 			</div>
 		</div>
 	</main>
-	
-	<footer>
-		<div class="copyright">
-			&copy; Copyright. All rights reserved. Design by <a href="http://www.github.com/Soarkey/">Soarkey</a>
-		</div>
-	</footer>
 
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<script src="js/admin.js"></script>

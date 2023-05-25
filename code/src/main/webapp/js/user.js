@@ -34,8 +34,7 @@ function course_avg() {
     if (window.XMLHttpRequest) {
         //  IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
         xmlhttp = new XMLHttpRequest();
-    }
-    else {
+    } else {
         // IE6, IE5 浏览器执行代码
         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
     }
@@ -49,14 +48,14 @@ function course_avg() {
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
 }
+
 //查询课程不及格率信息
 function fail_rate() {
     var xmlhttp;
     if (window.XMLHttpRequest) {
         //  IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
         xmlhttp = new XMLHttpRequest();
-    }
-    else {
+    } else {
         // IE6, IE5 浏览器执行代码
         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
     }
@@ -70,6 +69,7 @@ function fail_rate() {
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
 }
+
 //显示查询成绩排名信息
 function show_course_ranking() {
     var result = document.getElementById("result");
@@ -80,14 +80,14 @@ function show_course_ranking() {
         + "</div>";
     result.innerHTML = show;
 }
+
 //查询成绩排名信息
 function course_ranking() {
     var xmlhttp;
     if (window.XMLHttpRequest) {
         //  IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
         xmlhttp = new XMLHttpRequest();
-    }
-    else {
+    } else {
         // IE6, IE5 浏览器执行代码
         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
     }
@@ -111,8 +111,7 @@ function query_all(object) {
     if (window.XMLHttpRequest) {
         //  IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
         xmlhttp = new XMLHttpRequest();
-    }
-    else {
+    } else {
         // IE6, IE5 浏览器执行代码
         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
     }
