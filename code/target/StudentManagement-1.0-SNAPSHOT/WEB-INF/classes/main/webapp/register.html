@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Information Management System</title>
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+    <link rel="icon" type="image/x-ico" href="images/stu.ico">
+</head>
+<body>
+<!--Header-->
+<header>
+    <nav>
+        <ul>
+            <a href="#">
+                <li>Home</li>
+            </a>
+            <a href="#">
+                <li>About System</li>
+            </a>
+            <a href="login.html">
+                <li>Login</li>
+            </a>
+            <a href="register.html">
+                <li>Register</li>
+            </a>
+        </ul>
+    </nav>
+</header>
+
+<!--Main-->
+<main>
+    <div class="container">
+        <form class="register_form" action="RegisterServlet" method="post">
+            <h3>Student Information Management System</h3>
+            <p>Register</p>
+            <input type="text" autofocus="autofocus" name="username" placeholder="Username" required="required">
+            <input type="password" name="password" placeholder="Password" required="required">
+            <p>Permission Level</p>
+            <span class="radio">
+						<input type="radio" name="level" value="User" checked="checked"><span>User</span>
+						<input type="radio" name="level" value="Administrator"><span>Administrator</span>
+					</span>
+            <input id="submit" type="submit" name="submit" value="Register">
+        </form>
+    </div>
+</main>
+
+<!--Footer-->
+<footer>
+    <div class="info">
+        <ul>
+            <a href="#">
+                <li>Student Information Management System</li>
+            </a>
+            <a href="#">
+                <li>Help & Feedback</li>
+            </a>
+            <a href="#">
+                <li>Contact Us</li>
+            </a>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>

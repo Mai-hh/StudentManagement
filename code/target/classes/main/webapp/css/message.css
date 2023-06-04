@@ -1,0 +1,82 @@
+/* Basic */
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "PingFangSC-Regular", "Microsoft Yahei", sans-serif;
+}
+
+body {
+	background-color: #F3F8FE;
+}
+
+a {
+	color: #E3A505;
+	text-decoration: none;
+}
+
+a:hover {
+	font-size: 15px;
+	color: #FFCA58;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	display: inline-block;
+}
+
+main {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.message {
+	color: #334E68;
+	background-color: #F2F9FF;
+	padding: 2em 3em;
+	margin: 20% auto;
+	z-index: 1000;
+	display: inline-block;
+	width: 34%;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.relogin {
+	color: #334E68;
+	font-size: 36px;
+}
+
+.left {
+	float: left;
+	width: 60%;
+	text-align: left;
+}
+
+.right {
+	float: left;
+	width: 40%;
+	text-align: center;
+	margin: auto 0;
+}
+
+footer {
+	display: block;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	bottom: 20px;
+	z-index: 1;
+	line-height: 30px;
+	background-color: #334E68;
+	color: #fff;
+}
+
+.info ul li {
+	margin: 0 10px;
+	height: 38px;
+}
